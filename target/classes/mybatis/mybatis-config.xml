@@ -1,0 +1,5 @@
+<configuration>
+    <typeAliases>
+        <typeAlias alias="Integer" type="java.lang.Integer" />
+    </typeAliases>
+</configuration>

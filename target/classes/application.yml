@@ -1,0 +1,17 @@
+server: 
+  port: 8080
+
+spring: 
+  application: 
+    name: springboot-with-mybatis-demo
+  datasource:  
+    driverClass: com.mysql.jdbc.Driver  
+    url: jdbc:mysql://127.0.0.1:3306/alock_meeting_room_db?useUnicode=true&characterEncoding=utf-8  
+    username: root  
+    password: root  
+
+mybatis:  
+  config-locations: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mappers/*.xml
+  
+logging.level.com.demo.mybatis.dao: DEBUG
